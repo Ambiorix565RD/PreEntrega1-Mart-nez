@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <ItemListContainer/>
+      <ItemListContainer greeting={"¡Bienvenidos a la mejor tienda de instrumentos musicales!"}/>
     </>
   )
 }
