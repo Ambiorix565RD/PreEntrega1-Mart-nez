@@ -10,13 +10,13 @@ export default function NavBar(){
         <>
         <header className="navbarjsx">
         <img className="logoBateria" src={logoBateria}alt="logoBateria" />
-            <nav className="navbarEspacio">
+            <nav className="navbarCentro">
                 <BotonNavbar nombre="Baterías Acústicas"/>
                 <BotonNavbar nombre="Baterías Eléctricas"/>
                 <BotonNavbar nombre="Platillos"/>
                 <BotonNavbar nombre="Accesorios"/>
-                <CartWidget/>
             </nav>
+            <CartWidget/>
             </header>
         </>
     );
